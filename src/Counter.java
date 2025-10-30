@@ -1,7 +1,7 @@
 public class Counter {
     private int count = 0;
 
-    public synchronized void increment() {
+    public void increment() {
        int i = 0;
         while (i < 5000){
             i++;

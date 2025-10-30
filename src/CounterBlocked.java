@@ -1,3 +1,4 @@
+
 public class CounterBlocked {
     private final Object lock = new Object();
     private int countB = 0;
