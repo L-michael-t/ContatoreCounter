@@ -4,9 +4,10 @@ public class CounterBlocked {
     private int countB = 0;
 
     public void incrementB() {
-        synchronized (lock) {
+        
             int i = 0;
             while (i < 5000) {
+            synchronized (lock) {
                 i++;
                 countB++;
             }
