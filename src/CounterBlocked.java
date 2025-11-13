@@ -1,4 +1,4 @@
-
+//uesto è con il counterblock
 public class CounterBlocked {
     private final Object lock = new Object();
     private int countB = 0;

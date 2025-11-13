@@ -1,3 +1,4 @@
+//questo è senza nessun tipo di syncronized
 public class Counter {
     private int count = 0;
 

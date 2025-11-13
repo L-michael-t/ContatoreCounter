@@ -3,7 +3,8 @@ public class Main {
         Counter counter = new Counter();
         CounterBlocked example = new CounterBlocked();
 
-
+/*togliendo i vari commenti si puo attivare 
+la specifica di un counter normale oppure il counterblocked*/
 
 /*
         Thread t1 = new Thread(() -> counter.increment());
