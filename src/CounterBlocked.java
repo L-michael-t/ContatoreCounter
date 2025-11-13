@@ -7,8 +7,8 @@ public class CounterBlocked {
         
             int i = 0;
             while (i < 5000) {
-            synchronized (lock) {
                 i++;
+                synchronized (lock) {
                 countB++;
             }
 
